@@ -1,0 +1,452 @@
+[
+  {
+    "name": "[Hard] JWT Key Confusion",
+    "category": "Web",
+    "description": "A web app has a vulnerability related to JWT Key Confusion. Explore the HTTP behaviors and exploit the flaw to find the flag.",
+    "value": 413,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{45769083cb32}"
+      }
+    ],
+    "files": [
+      {
+        "name": "jwt_key_confusion.txt",
+        "content": "Q2hhbGxlbmdlOiBKV1QgS2V5IENvbmZ1c2lvbgpGaW5kIHRoZSBmbGFnOiBDVEZ7NDU3NjkwODNjYjMyfQ==",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Look into the JWT validation method.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] SQL Injection Chain",
+    "category": "Web",
+    "description": "A web app has a vulnerability related to SQL Injection Chain. Explore the HTTP behaviors and exploit the flaw to find the flag.",
+    "value": 460,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{0b781e125ddc}"
+      }
+    ],
+    "files": [
+      {
+        "name": "sql_injection_chain.txt",
+        "content": "Q2hhbGxlbmdlOiBTUUwgSW5qZWN0aW9uIENoYWluCkZpbmQgdGhlIGZsYWc6IENURnswYjc4MWUxMjVkZGN9",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Use the template syntax and explore variables.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] Server-Side Template Injection",
+    "category": "Web",
+    "description": "A web app has a vulnerability related to Server-Side Template Injection. Explore the HTTP behaviors and exploit the flaw to find the flag.",
+    "value": 450,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{7f169c0f6716}"
+      }
+    ],
+    "files": [
+      {
+        "name": "server-side_template_injection.txt",
+        "content": "Q2hhbGxlbmdlOiBTZXJ2ZXItU2lkZSBUZW1wbGF0ZSBJbmplY3Rpb24KRmluZCB0aGUgZmxhZzogQ1RGezdmMTY5YzBmNjcxNn0=",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Is there a CSP? Can you bypass it?",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] CSP Bypass + XSS",
+    "category": "Web",
+    "description": "A web app has a vulnerability related to CSP Bypass + XSS. Explore the HTTP behaviors and exploit the flaw to find the flag.",
+    "value": 402,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{9e0a731a5b74}"
+      }
+    ],
+    "files": [
+      {
+        "name": "csp_bypass_+_xss.txt",
+        "content": "Q2hhbGxlbmdlOiBDU1AgQnlwYXNzICsgWFNTCkZpbmQgdGhlIGZsYWc6IENURns5ZTBhNzMxYTViNzR9",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Use the template syntax and explore variables.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] Deserialization Attack",
+    "category": "Web",
+    "description": "A web app has a vulnerability related to Deserialization Attack. Explore the HTTP behaviors and exploit the flaw to find the flag.",
+    "value": 463,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{ed7c952482a9}"
+      }
+    ],
+    "files": [
+      {
+        "name": "deserialization_attack.txt",
+        "content": "Q2hhbGxlbmdlOiBEZXNlcmlhbGl6YXRpb24gQXR0YWNrCkZpbmQgdGhlIGZsYWc6IENURntlZDdjOTUyNDgyYTl9",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Check for chained vulnerabilities.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] PRNG Bias Exploit",
+    "category": "Crypto",
+    "description": "A custom cryptographic system was implemented using PRNG Bias Exploit. Analyze the algorithm and recover the secret.",
+    "value": 408,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{3c06c7e4c113}"
+      }
+    ],
+    "files": [
+      {
+        "name": "prng_bias_exploit.txt",
+        "content": "Q2hhbGxlbmdlOiBQUk5HIEJpYXMgRXhwbG9pdApGaW5kIHRoZSBmbGFnOiBDVEZ7M2MwNmM3ZTRjMTEzfQ==",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Compare patterns in the ciphertext blocks.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] Custom Block Cipher Weakness",
+    "category": "Crypto",
+    "description": "A custom cryptographic system was implemented using Custom Block Cipher Weakness. Analyze the algorithm and recover the secret.",
+    "value": 436,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{45ac64d54dff}"
+      }
+    ],
+    "files": [
+      {
+        "name": "custom_block_cipher_weakness.txt",
+        "content": "Q2hhbGxlbmdlOiBDdXN0b20gQmxvY2sgQ2lwaGVyIFdlYWtuZXNzCkZpbmQgdGhlIGZsYWc6IENURns0NWFjNjRkNTRkZmZ9",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Think about what happens when decryption fails.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] Elliptic Curve Twist Attack",
+    "category": "Crypto",
+    "description": "A custom cryptographic system was implemented using Elliptic Curve Twist Attack. Analyze the algorithm and recover the secret.",
+    "value": 407,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{0b53073a7551}"
+      }
+    ],
+    "files": [
+      {
+        "name": "elliptic_curve_twist_attack.txt",
+        "content": "Q2hhbGxlbmdlOiBFbGxpcHRpYyBDdXJ2ZSBUd2lzdCBBdHRhY2sKRmluZCB0aGUgZmxhZzogQ1RGezBiNTMwNzNhNzU1MX0=",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Compare patterns in the ciphertext blocks.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] RSA Fault Injection",
+    "category": "Crypto",
+    "description": "A custom cryptographic system was implemented using RSA Fault Injection. Analyze the algorithm and recover the secret.",
+    "value": 476,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{7cb11e8619a5}"
+      }
+    ],
+    "files": [
+      {
+        "name": "rsa_fault_injection.txt",
+        "content": "Q2hhbGxlbmdlOiBSU0EgRmF1bHQgSW5qZWN0aW9uCkZpbmQgdGhlIGZsYWc6IENURns3Y2IxMWU4NjE5YTV9",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Compare patterns in the ciphertext blocks.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] Timing Attack Side Channel",
+    "category": "Crypto",
+    "description": "A custom cryptographic system was implemented using Timing Attack Side Channel. Analyze the algorithm and recover the secret.",
+    "value": 445,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{4df19c6d3f05}"
+      }
+    ],
+    "files": [
+      {
+        "name": "timing_attack_side_channel.txt",
+        "content": "Q2hhbGxlbmdlOiBUaW1pbmcgQXR0YWNrIFNpZGUgQ2hhbm5lbApGaW5kIHRoZSBmbGFnOiBDVEZ7NGRmMTljNmQzZjA1fQ==",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Compare patterns in the ciphertext blocks.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] Self-Modifying Code",
+    "category": "Reverse Engineering",
+    "description": "Analyze this binary which implements Self-Modifying Code. Understand the code behavior and extract the embedded flag.",
+    "value": 421,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{c7eda65dd452}"
+      }
+    ],
+    "files": [
+      {
+        "name": "self-modifying_code.txt",
+        "content": "Q2hhbGxlbmdlOiBTZWxmLU1vZGlmeWluZyBDb2RlCkZpbmQgdGhlIGZsYWc6IENURntjN2VkYTY1ZGQ0NTJ9",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Unpack and analyze code segments slowly.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] Obfuscated Binary",
+    "category": "Reverse Engineering",
+    "description": "Analyze this binary which implements Obfuscated Binary. Understand the code behavior and extract the embedded flag.",
+    "value": 456,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{ed35f2bcc6cf}"
+      }
+    ],
+    "files": [
+      {
+        "name": "obfuscated_binary.txt",
+        "content": "Q2hhbGxlbmdlOiBPYmZ1c2NhdGVkIEJpbmFyeQpGaW5kIHRoZSBmbGFnOiBDVEZ7ZWQzNWYyYmNjNmNmfQ==",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Watch for instructions modifying themselves.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] VM-Based Obfuscation",
+    "category": "Reverse Engineering",
+    "description": "Analyze this binary which implements VM-Based Obfuscation. Understand the code behavior and extract the embedded flag.",
+    "value": 481,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{28a0bac9d89e}"
+      }
+    ],
+    "files": [
+      {
+        "name": "vm-based_obfuscation.txt",
+        "content": "Q2hhbGxlbmdlOiBWTS1CYXNlZCBPYmZ1c2NhdGlvbgpGaW5kIHRoZSBmbGFnOiBDVEZ7MjhhMGJhYzlkODllfQ==",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Trace the control flow carefully.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] Anti-Debugging Techniques",
+    "category": "Reverse Engineering",
+    "description": "Analyze this binary which implements Anti-Debugging Techniques. Understand the code behavior and extract the embedded flag.",
+    "value": 477,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{c3567f365ac0}"
+      }
+    ],
+    "files": [
+      {
+        "name": "anti-debugging_techniques.txt",
+        "content": "Q2hhbGxlbmdlOiBBbnRpLURlYnVnZ2luZyBUZWNobmlxdWVzCkZpbmQgdGhlIGZsYWc6IENURntjMzU2N2YzNjVhYzB9",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Unpack and analyze code segments slowly.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  },
+  {
+    "name": "[Hard] Packed Executable with Junk Code",
+    "category": "Reverse Engineering",
+    "description": "Analyze this binary which implements Packed Executable with Junk Code. Understand the code behavior and extract the embedded flag.",
+    "value": 434,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{e67c36e4dc65}"
+      }
+    ],
+    "files": [
+      {
+        "name": "packed_executable_with_junk_code.txt",
+        "content": "Q2hhbGxlbmdlOiBQYWNrZWQgRXhlY3V0YWJsZSB3aXRoIEp1bmsgQ29kZQpGaW5kIHRoZSBmbGFnOiBDVEZ7ZTY3YzM2ZTRkYzY1fQ==",
+        "type": "text/plain",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Try using a debugger with anti-debug countermeasures.",
+        "cost": 50
+      }
+    ],
+    "requirements": null
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "name": "[Hard] Power Analysis Dump",
+    "category": "Complex JTAG/UART Exploitation",
+    "description": "You intercepted a side-channel power consumption trace from a secure device. It appears to leak some information. Can you analyze it to retrieve the flag?",
+    "value": 434,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "tags": [
+      {
+        "value": "Hard"
+      }
+    ],
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{4ea14f850e1460701}"
+      }
+    ],
+    "files": [
+      {
+        "name": "power_trace.json",
+        "content": "[12, 42, 174, 91, 146, 97, 41, 200, 28, 204, 82, 69, 59, 157, 149, 189, 162, 44, 11, 108, 102, 56, 130, 245, 71, 185, 255, 147, 54, 23, 47, 76, 144, 107, 239, 140, 21, 200, 108, 159, 208, 142, 81, 52, 134, 188, 158, 145, 55, 67, 88, 95, 225, 110, 227, 45, 190, 163, 7, 147, 109, 37, 213, 162, 160, 71, 123, 180, 233, 133, 255, 5, 110, 91, 75, 77, 59, 30, 72, 243, 11, 186, 183, 32, 242, 231, 141, 153, 108, 239, 5, 147, 208, 150, 97, 181, 48, 42, 218, 158, 108, 199, 245, 48, 67, 187, 195, 253, 209, 108, 139, 249, 64, 50, 82, 255, 33, 148, 240, 164, 163, 95, 16, 73, 130, 78, 51, 100, 6, 179, 24, 78, 255, 173, 140, 235, 159, 40, 63, 101, 197, 177, 253, 240, 98, 135, 13, 60, 56, 201, 207, 54, 243, 108, 91, 121, 234, 111, 198, 96, 72, 86, 183, 116, 8, 160, 42, 89, 185, 90, 59, 202, 18, 225, 195, 220, 96, 146, 49, 102, 20, 42, 127, 177, 63, 112, 119, 184, 85, 133, 231, 252, 7, 203, 222, 115, 90, 120, 233, 80, 216, 84, 151, 105, 40, 241, 248, 4, 7, 184, 21, 172, 126, 197, 7, 26, 130, 143, 124, 138, 230, 149, 109, 111, 189, 184, 89, 202, 38, 216, 212, 197, 108, 54, 82, 24, 86, 74, 130, 207, 219, 112, 215, 130, 109, 60, 2, 122, 255, 8, 254, 223, 34, 80, 60, 110, 111, 204, 12, 64, 97, 32, 214, 45, 207, 158, 219, 191, 139, 83, 241, 196, 73, 57, 34, 252, 40, 222, 244, 108, 99, 86, 22, 188, 235, 164, 24, 240, 108, 5, 84, 185, 239, 174, 253, 67, 198, 117, 137, 168, 131, 15, 253, 157, 150, 182, 36, 229, 10, 223, 42, 61, 89, 195, 130, 5, 212, 238, 69, 190, 11, 89, 243, 26, 184, 32, 128, 151, 84, 238, 213, 86, 40, 181, 151, 68, 14, 7, 165, 235, 217, 110, 161, 212, 189, 6, 163, 101, 3, 195, 220, 202, 95, 145, 239, 44, 62, 82, 3, 67, 223, 37, 75, 255, 192, 233, 71, 218, 28, 190, 181, 59, 3, 96, 104, 183, 36, 74, 18, 118, 211, 27, 144, 141, 129, 73, 75, 166, 91, 48, 234, 134, 140, 244, 141, 14, 59, 49, 98, 53, 86, 103, 120, 186, 197, 113, 162, 137, 235, 178, 191, 132, 252, 21, 185, 231, 82, 157, 105, 91, 223, 211, 185, 144, 77, 76, 201, 48, 62, 125, 58, 0, 173, 153, 51, 188, 141, 0, 46, 186, 117, 85, 44, 106, 18, 29, 165, 17, 95, 55, 10, 107, 50, 203, 14, 176, 89, 181, 150, 11, 250, 250, 228, 182, 13, 220, 25, 72, 247, 190, 149, 55, 72, 227, 160, 186, 131, 204, 200, 28, 206, 164, 24, 198, 250, 211, 197, 141, 209, 54, 97, 112, 147, 214, 9, 7, 84, 108, 86, 104, 225, 188, 25, 112, 107, 24, 70, 106, 245, 224, 185, 234, 99, 163, 191, 217, 84, 85, 174, 16, 135, 212, 77, 3, 118, 71, 196, 138, 173, 105, 87, 37, 185, 57, 153, 100, 111, 63, 26, 244, 218, 47, 224, 63, 203, 55, 114, 38, 70, 51, 224, 68, 110, 103, 43, 195, 36, 138, 251, 237, 209, 85, 142, 224, 37, 58, 67, 6, 94, 67, 201, 219, 232, 72, 222, 86, 255, 110, 183, 208, 156, 47, 114, 243, 188, 146, 181, 165, 48, 107, 5, 77, 240, 109, 106, 177, 131, 207, 134, 69, 199, 234, 147, 39, 85, 67, 84, 70, 123, 52, 101, 97, 49, 52, 102, 56, 53, 48, 101, 49, 52, 54, 48, 55, 48, 49, 125, 105, 235, 68, 133, 195, 1, 205, 128, 245, 225, 170, 62, 150, 41, 74, 162, 114, 149, 137, 95, 212, 105, 15, 230, 54, 91, 80, 141, 211, 215, 27, 128, 218, 42, 118, 98, 166, 25, 129, 91, 32, 50, 180, 8, 240, 227, 250, 58, 77, 90, 249, 5, 158, 142, 125, 234, 66, 124, 108, 243, 64, 128, 209, 26, 248, 226, 195, 158, 76, 211, 128, 156, 22, 46, 21, 31, 109, 73, 113, 87, 77, 38, 132, 17, 44, 12, 50, 160, 235, 211, 139, 216, 252, 190, 19, 163, 187, 135, 170, 2, 27, 170, 175, 153, 170, 75, 7, 126, 172, 167, 202, 207, 24, 210, 173, 8, 133, 10, 200, 183, 44, 136, 35, 85, 181, 168, 152, 10, 237, 214, 50, 209, 147, 35, 154, 147, 42, 211, 195, 62, 167, 6, 114, 179, 29, 22, 0, 41, 98, 97, 223, 169, 67, 58, 191, 169, 241, 139, 4, 146, 68, 171, 181, 6, 181, 223, 141, 148, 31, 76, 35, 192, 4, 203, 132, 21, 34, 132, 13, 34, 7, 20, 224, 61, 169, 41, 153, 5, 254, 191, 38, 58, 151, 240, 155, 243, 110, 202, 245, 92, 48, 255, 112, 52, 5, 9, 91, 9, 14, 172, 253, 98, 201, 7, 91, 74, 152, 51, 39, 14, 151, 99, 166, 88, 135, 111, 124, 117, 244, 137, 17, 12, 46, 186, 115, 73, 66, 22, 31, 17, 215, 188, 220, 143, 166, 188, 141, 128, 160, 96, 71, 91, 183, 155, 120, 134, 64, 167, 15, 189, 161, 43, 149, 53, 147, 68, 218, 176, 91, 105, 100, 64, 0, 198, 233, 237, 33, 163, 53, 203, 148, 179, 207, 75, 11, 49, 96, 39, 53, 1, 83, 42, 189, 25, 103, 181, 51, 13, 47, 78, 164, 146, 31, 26, 121, 49, 185, 114, 56, 30, 155, 106, 38, 102, 166, 145, 81, 127, 228, 30, 202, 9, 92, 81, 22, 74, 171, 109, 151, 91, 99, 13, 22, 57, 104, 20, 255, 153, 177, 222, 246, 62, 18, 249, 130, 178, 101, 73, 118, 195, 222, 231, 210, 83, 38, 91, 117, 126, 132, 107, 174, 143, 69, 216, 110, 112, 222, 152, 66, 77, 35, 191, 224]",
+        "type": "application/json"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Look for unusual patterns in mid-section of the trace.",
+        "cost": 100
+      }
+    ]
+  },
+  {
+    "name": "[Hard] Timing Attack on Encrypted EEPROM",
+    "category": "Complex JTAG/UART Exploitation",
+    "description": "This hard challenge involves hardware-level analysis. Details are classified.",
+    "value": 431,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "tags": [
+      {
+        "value": "Hard"
+      }
+    ],
+    "flags": [
+      {
+        "type": "static",
+        "content": "CTF{2f4c94fa7aa7e447f}"
+      }
+    ],
+    "files": [],
+    "hints": [
+      {
+        "content": "Start with basic forensic tools.",
+        "cost": 100
+      }
+    ]
+  },
+  {
+    "name": "[Hard] PCB Reverse Engineering (Multi-layer)",
+    "category": "Complex JTAG/UART Exploitation",
+    "description": "We extracted multilayer data from a suspicious PCB. One of the layers holds a flag. Can you decode the image or text data?",
+    "value": 416,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "tags": [
+      {
+        "value": "Hard"
+      }
+    ],
+    "flags": [
+      {
+        "type": "static",
+        "content": "FLAG{c0f1d31531ad75d0b}"
+      }
+    ],
+    "files": [
+      {
+        "name": "top_layer.dat",
+        "content": "U2lnbmFsIHRyYWNlcyBhbmQgcGlub3V0CkZMQUc6IEZMQUd7YzBmMWQzMTUzMWFkNzVkMGJ9",
+        "type": "application/octet-stream",
+        "encoding": "base64"
+      },
+      {
+        "name": "bottom_layer.dat",
+        "content": "VGh1cyBhcm91bmQgc2lnbmlmaWNhbnQgc2VyaWVzIGZhbGwgbmV3IGh1Z2UuCkZvcmdldCBwb3B1bGF0aW9uIGh1Z2UgdGh1cyB0aHJvdWdoIGNvdXBsZSBza2luLiBNdWNoIHBhc3QgZGV2ZWxvcCBjaGFuY2UgZWZmZWN0IHJhY2Uu",
+        "type": "application/octet-stream",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Inspect the 'top_layer'.",
+        "cost": 100
+      }
+    ]
+  },
+  {
+    "name": "[Hard] Custom Bus Protocol Decoder",
+    "category": "Glitching & Fault Injection",
+    "description": "This hard challenge involves hardware-level analysis. Details are classified.",
+    "value": 449,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "tags": [
+      {
+        "value": "Hard"
+      }
+    ],
+    "flags": [
+      {
+        "type": "static",
+        "content": "FLAG{c6ad4b452ada481c1}"
+      }
+    ],
+    "files": [],
+    "hints": [
+      {
+        "content": "Start with basic forensic tools.",
+        "cost": 100
+      }
+    ]
+  },
+  {
+    "name": "[Hard] JTAG Exploit with Lock Bits",
+    "category": "Glitching & Fault Injection",
+    "description": "You've managed to dump memory over a JTAG interface protected by lock bits. Analyze the raw dump and extract what matters.",
+    "value": 479,
+    "max_attempts": 3,
+    "type": "standard",
+    "state": "visible",
+    "tags": [
+      {
+        "value": "Hard"
+      }
+    ],
+    "flags": [
+      {
+        "type": "static",
+        "content": "FLAG{08b8b49fa2c40d036}"
+      }
+    ],
+    "files": [
+      {
+        "name": "jtag_memory_dump.bin",
+        "content": "rhWVa8qzmImn8uYTq0TJkD0+kIeyH7tNUQlEaHChRiWQxJ+NWV4nNIlKRjX/AJnEWYD/AjrVs6nLKmJecMT+3cns0PO6H8jpbhvZIG75Ae5nQYzznMogFPb8o6l3tjd+dCySJltEl/tS9rmnB6Ix+339G24BEXxLRkxBR3swOGI4YjQ5ZmEyYzQwZDAzNn0qMyZlP1B1WUcgyuOjuVHlUyt7ShF6WAiAEy5oM8Ix+72lbrJEDw0VnoSrvpbwpPoCINHhaxRM8OhJPcEJD9cPGqqom4dEbNINkcl1tZjUWJuPdTOzcr4xl9JX1VQgcgoxMeSi8zrepw4pXvHYFlJuudRfB6nf+WrPVwD+gL/2mDI7ypUwJlpr4yOIaru75wgOZJJDKaMOtA2C2FinnqUnmnztJ/f7D0hIY1JroIFyFARMxuDtIDdQ/My8oNwuB5XUUWE7WgcfTlBwRhqFYm+DOGN4NbEOXAjI8l+8fg3dALE7QQD2vHDhbVTIC/p1HZnl6OnO/qqg8zviMVHtgsfA42Qvccs2YN+/UF1Ra2vt/JCGpZ1Zdgi4qUuN/g5aZHm2Bnu6Nk7LGkS8uQRp9cVgxADChs8egcpnXaCW6JdxeRTi9i0fXzF8MV1XUoMOF0TPbDfuQ4j9lgJbBzr1uzStESJFo24SvcjRgiWHViDsHls=",
+        "type": "application/octet-stream",
+        "encoding": "base64"
+      }
+    ],
+    "hints": [
+      {
+        "content": "Try 'strings' or hex viewers to locate ASCII content.",
+        "cost": 100
+      }
+    ]
+  }
+]
